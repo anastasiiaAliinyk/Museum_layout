@@ -1,5 +1,5 @@
 # Museum landing page
-Implemented landing page according to [Figma design](https://www.figma.com/file/cRBCqE06cDrY3s4jX7h3iY/
+Implemented landing page according to [Figma design](https://www.figma.com/file/cRBCqE06cDrY3s4jX7h3iY/)
 
 Responsive for resolutions:
 - Large screens 2560px
