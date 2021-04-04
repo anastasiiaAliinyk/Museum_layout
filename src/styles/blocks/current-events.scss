@@ -1,0 +1,40 @@
+.current-events {
+  padding-top: 200px;
+
+  &__heading {
+    margin-bottom: 60px;
+
+    font-size: 48px;
+    font-weight: 700;
+    color: $c-dark-gray;
+  }
+
+  &__content {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: $medium-screen-breakpoint) {
+  .current-events {
+    padding-top: 90px;
+
+    &__heading {
+      margin-bottom: 40px;
+      font-size: 36px;
+    }
+
+    &__content {
+      margin-bottom: 60px;
+    }
+  }
+}
+
+@media screen and (max-width: $mobile-screen-breakpoint) {
+  .current-events {
+    padding-top: 70px;
+
+    &__heading {
+      text-align: center;
+    }
+  }
+}

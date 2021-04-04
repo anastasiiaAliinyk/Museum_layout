@@ -1,0 +1,66 @@
+@import "./media.scss";
+@import "./nav.scss";
+@import "./information.scss";
+
+.footer {
+  padding: 51px 0 35px;
+  font-family: "IBM Plex Sans", sans-serif;
+
+  &__all-content {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 85px;
+  }
+
+  &__wrap {
+    width: 100%;
+    display: flex;
+  }
+
+  &__copyright {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: $medium-screen-breakpoint) {
+  .footer {
+    &__wrap {
+      flex-direction: column;
+      padding-left: 60px;
+    }
+
+    &__information {
+      margin-bottom: 5%;
+    }
+  }
+}
+
+@media screen and (max-width: $small-screen-breakpoint) {
+  .footer {
+
+    &__all-content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__media {
+      margin-bottom: 40px;
+    }
+
+    &__wrap {
+      width: 100%;
+      padding: 0;
+    }
+
+    &__copyright {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+
+      > p:first-child {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

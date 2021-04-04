@@ -1,0 +1,35 @@
+@import "./timetable.scss";
+@import "./contacts.scss";
+
+.information {
+  display: flex;
+  padding: 0 10%;
+
+  font-size: 1.17rem;
+  line-height: 21px;
+  color: $c-dark-gray;
+  border-right: 1px solid rgba(26, 90, 76, 0.5);
+
+  &__timetable {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: $medium-screen-breakpoint) {
+  .information {
+    width: 70%;
+    padding: 0 0 5%;
+    border-right: none;
+    border-bottom: 1px solid rgba(26, 90, 76, 0.5);
+  }
+}
+
+@media screen and (max-width: $small-screen-breakpoint) {
+  .information {
+    width: 100%;
+
+    &__timetable {
+      margin-right: 15px;
+    }
+  }
+}

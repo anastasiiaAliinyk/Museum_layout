@@ -1,0 +1,41 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 10%;
+
+  &__item {
+    margin-bottom: 20px;
+    font-size: 1.17rem;
+
+    transition: transform $anim-duration;
+
+    &:hover {
+      transform: translateX(2px);
+    }
+  }
+
+  &__list {
+    &:not(:first-child) {
+      margin-left: 50px;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $c-dark-gray;
+  }
+}
+
+@media screen and (max-width: $medium-screen-breakpoint) {
+  .nav {
+    justify-content: unset;
+    width: 70%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: $small-screen-breakpoint) {
+  .nav {
+    width: 100%;
+  }
+}

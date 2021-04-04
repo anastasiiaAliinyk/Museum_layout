@@ -1,0 +1,10 @@
+.links {
+  &__item {
+    width: 24px;
+    text-decoration: none;
+
+    &:not(:first-child) {
+      margin-left: 25px;
+    }
+  }
+}

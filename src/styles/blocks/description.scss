@@ -1,0 +1,16 @@
+@import "./blocks/title";
+@import "./blocks/text";
+
+.description {
+  width: 370px;
+
+  &__title {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: $small-screen-breakpoint) {
+  .description {
+    width: 100%;
+  }
+}

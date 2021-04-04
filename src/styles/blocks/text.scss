@@ -1,0 +1,42 @@
+.text {
+  &__heading {
+    margin-bottom: 15px;
+    font-size: 36px;
+    color: $c-dark-gray;
+
+    &-romantism {
+      font-size: 36px;
+      color: $c-dark-gray;
+    }
+
+    &::after {
+      display: inline-block;
+      margin: 0 0 5px 12px;
+      width: 12px;
+      height: 12px;
+
+      content: "";
+      background-color: #f14a27;
+    }
+  }
+
+  &__preview {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: $c-gray;
+  }
+}
+
+@media screen and (max-width: $small-screen-breakpoint) {
+  .text {
+    &__heading {
+      font-size: 28px;
+
+      &-romantism {
+        width: 235px;
+        font-size: 28px;
+      }
+    }
+  }
+}
