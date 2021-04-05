@@ -6,7 +6,7 @@ Responsive for resolutions:
 - Full HD 1920px
 - The design 1600px
 - Notebook 1280px
-- Tablet 1024
+- Tablet 1024px
 - Mobile (> 320px)
 
 You can check this page here: [DEMO LINK](https://anastasiiaaliinyk.github.io/Museum_layout/)

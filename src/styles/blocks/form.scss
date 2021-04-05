@@ -19,10 +19,7 @@
     }
 
     &:focus {
-      outline: 0;
-      outline-offset: 0;
-
-      border: 2px solid rgb(122, 172, 248);
+      border: 2px solid $c-light-blue;
     }
   }
 
@@ -36,7 +33,7 @@
     background-color: $c-red;
 
     &:hover {
-      background-color: #ec654a;
+      background-color: $c-light-red;
     }
   }
 }
